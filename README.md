@@ -1,5 +1,12 @@
+# French Legal Summarization using CamemBERT
+
+## Dataset
+The dataset can be downloaded via:
+```bash
+wget https://echanges.dila.gouv.fr/OPENDATA/CASS//Freemium_cass_global_20250713-140000.tar.gz
+```
 ## Data Preprocessing
-The preprocessing and data splitting used in this project follows the approach described in the [STRASS method](https://www.aclweb.org/anthology/P19-2034) proposed by Bouscarrat et al. (2019).
+The preprocessing used in this project is partially based on the approach described in the [STRASS method](https://www.aclweb.org/anthology/P19-2034) proposed by Bouscarrat et al. (2019).
 
 ## Citation
 ```bibtex
@@ -14,3 +21,4 @@ The preprocessing and data splitting used in this project follows the approach d
   url = "https://www.aclweb.org/anthology/P19-2034",
   pages = "243--252"
 }
+

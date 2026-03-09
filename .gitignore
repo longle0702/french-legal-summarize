@@ -1,1 +1,5 @@
 .venv/
+cass/
+cleaned_files/
+.pdf
+.tar.gz
